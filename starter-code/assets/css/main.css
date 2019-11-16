@@ -1,5 +1,5 @@
-@import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+/* @import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600"); */
 
 /*
 	Prologue by HTML5 UP
@@ -7,7 +7,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-html, body, div, span, applet, object,
+/* html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
@@ -23,9 +23,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;} */
 
-article, aside, details, figcaption, figure,
+/* article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
@@ -44,14 +44,14 @@ blockquote, q {
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
-	}
+	} */
 
-table {
+/* table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+} */
 
-body {
+/* body {
 	-webkit-text-size-adjust: none;
 }
 
@@ -70,11 +70,11 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
-}
+} */
 
 /* Basic */
 
-	html {
+	/* html {
 		box-sizing: border-box;
 	}
 
@@ -108,9 +108,9 @@ input, select, textarea {
 		font-weight: 300;
 		line-height: 1.75em;
 		color: #888;
-	}
+	} */
 
-	h1, h2, h3, h4, h5, h6 {
+	/* h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		color: #666;
 		line-height: 1.5em;
@@ -172,14 +172,14 @@ input, select, textarea {
 		-ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		outline: 0;
-	}
+	} */
 
-		a:hover {
+		/* a:hover {
 			color: #E27689;
 			border-bottom-color: rgba(255, 255, 255, 0);
-		}
+		} */
 
-	sub {
+	/* sub {
 		position: relative;
 		top: 0.5em;
 		font-size: 0.8em;
@@ -189,9 +189,9 @@ input, select, textarea {
 		position: relative;
 		top: -0.5em;
 		font-size: 0.8em;
-	}
+	} */
 
-	hr {
+	/* hr {
 		border: 0;
 		border-top: solid 1px #ddd;
 	}
@@ -208,17 +208,17 @@ input, select, textarea {
 
 	br.clear {
 		clear: both;
-	}
+	} */
 
 /* Container */
 
-	.container {
+	/* .container {
 		margin: 0 auto;
 		max-width: 100%;
 		width: 1400px;
-	}
+	} */
 
-		@media screen and (min-width: 961px) and (max-width: 1880px) {
+		/* @media screen and (min-width: 961px) and (max-width: 1880px) {
 
 			.container {
 				width: 1200px;
@@ -256,18 +256,18 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		}
+		} */
 
 /* Row */
 
-	.row {
+	/* .row {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
-	}
+	} */
 
-		.row > * {
+		/* .row > * {
 			box-sizing: border-box;
 		}
 
@@ -448,14 +448,14 @@ input, select, textarea {
 
 				.row.gtr-50.gtr-uniform > * {
 					padding-top: 20px;
-				}
+				} */
 
-		.row {
+		/* .row {
 			margin-top: -40px;
 			margin-left: -40px;
-		}
+		} */
 
-			.row > * {
+			/* .row > * {
 				padding: 40px 0 0 40px;
 			}
 
@@ -499,9 +499,9 @@ input, select, textarea {
 
 				.row.gtr-200.gtr-uniform > * {
 					padding-top: 80px;
-				}
+				} */
 
-		@media screen and (min-width: 961px) and (max-width: 1880px) {
+		/* @media screen and (min-width: 961px) and (max-width: 1880px) {
 
 			.row {
 				display: flex;
@@ -744,9 +744,9 @@ input, select, textarea {
 							padding-top: 80px;
 						}
 
-		}
+		} */
 
-		@media screen and (min-width: 961px) and (max-width: 1620px) {
+		/* @media screen and (min-width: 961px) and (max-width: 1620px) {
 
 			.row {
 				display: flex;
@@ -989,9 +989,9 @@ input, select, textarea {
 							padding-top: 80px;
 						}
 
-		}
+		} */
 
-		@media screen and (min-width: 961px) and (max-width: 1320px) {
+		/* @media screen and (min-width: 961px) and (max-width: 1320px) {
 
 			.row {
 				display: flex;
@@ -1724,15 +1724,15 @@ input, select, textarea {
 							padding-top: 40px;
 						}
 
-		}
+		} */
 
 /* Sections/Article */
 
-	section, article {
+	/* section, article {
 		margin-bottom: 3em;
-	}
+	} */
 
-		section > :last-child,
+		/* section > :last-child,
 		section > .container, section:last-child, article > :last-child,
 		article > .container, article:last-child {
 			margin-bottom: 0;
@@ -1740,16 +1740,16 @@ input, select, textarea {
 
 		.row > section, .row > article {
 			margin-bottom: 0;
-		}
+		} */
 
 /* Image */
 
-	.image {
+	/* .image {
 		display: inline-block;
 		border: 0;
-	}
+	} */
 
-		.image img {
+		/* .image img {
 			display: block;
 			width: 100%;
 		}
@@ -1774,14 +1774,14 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
-		}
+		} */
 
-		.image.left {
+		/* .image.left {
 			float: left;
 			margin: 0 2em 2em 0;
-		}
+		} */
 
-		.image.centered {
+		/* .image.centered {
 			display: block;
 			margin: 0 0 2em 0;
 		}
@@ -1789,31 +1789,31 @@ input, select, textarea {
 			.image.centered img {
 				margin: 0 auto;
 				width: auto;
-			}
+			} */
 
 /* List */
 
-	ul {
+	/* ul {
 		list-style: disc;
 		padding-left: 1em;
-	}
+	} */
 
-		ul li {
+		/* ul li {
 			padding-left: 0.5em;
-		}
+		} */
 
-	ol {
+	/* ol {
 		list-style: decimal;
 		padding-left: 1.25em;
-	}
+	} */
 
-		ol li {
+		/* ol li {
 			padding-left: 0.25em;
-		}
+		} */
 
 /* Icons */
 
-	ul.icons {
+	/* ul.icons {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
@@ -1831,17 +1831,17 @@ input, select, textarea {
 			line-height: 2em;
 			text-align: center;
 			border: 0;
-		}
+		} */
 
 /* Form */
 
-	form label {
+	/* form label {
 		display: block;
 		text-align: left;
 		margin-bottom: 0.5em;
-	}
+	} */
 
-	form input[type="text"],
+	/* form input[type="text"],
 	form input[type="email"],
 	form input[type="password"],
 	form select,
@@ -1902,16 +1902,16 @@ input, select, textarea {
 
 	form ::-moz-focus-inner {
 		border: 0;
-	}
+	} */
 
 /* Table */
 
-	table {
+	/* table {
 		width: 100%;
 		text-align: left;
-	}
+	} */
 
-		table tbody tr:nth-child(2n+2) {
+		/* table tbody tr:nth-child(2n+2) {
 			background: #f4f4f4;
 		}
 
@@ -1933,11 +1933,11 @@ input, select, textarea {
 
 		table tfoot {
 			background: #eee;
-		}
+		} */
 
 /* Button */
 
-	input[type="button"],
+	/* input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
 	button,
@@ -1959,9 +1959,9 @@ input, select, textarea {
 		-webkit-transition: background-color 0.35s ease-in-out;
 		-ms-transition: background-color 0.35s ease-in-out;
 		transition: background-color 0.35s ease-in-out;
-	}
+	} */
 
-		input[type="button"]:hover,
+		/* input[type="button"]:hover,
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		button:hover,
@@ -1975,15 +1975,15 @@ input, select, textarea {
 		button:active,
 		.button:active {
 			background-color: #7eaeac;
-		}
+		} */
 
 /* Item */
 
-	.item {
+	/* .item {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
-	}
-
+	} */
+/* 
 		.item header {
 			background: #fff;
 			margin: 0;
@@ -1993,15 +1993,15 @@ input, select, textarea {
 
 			.item header h3 {
 				font-size: 1em;
-			}
+			} */
 
 /* Icons */
 
-	.icon {
+	/* .icon {
 		text-decoration: none;
-	}
+	} */
 
-		.icon:before {
+		/* .icon:before {
 			display: inline-block;
 			font-family: FontAwesome;
 			font-size: 1.25em;
@@ -2015,11 +2015,11 @@ input, select, textarea {
 
 		.icon > .label {
 			display: none;
-		}
+		} */
 
 /* Header */
 
-	#header {
+	/* #header {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2042,9 +2042,9 @@ input, select, textarea {
 		text-align: right;
 		top: 0;
 		width: 375px;
-	}
+	} */
 
-		#header .top {
+		/* #header .top {
 			-moz-flex-grow: 1;
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
@@ -2078,9 +2078,9 @@ input, select, textarea {
 
 				#header .icons a:hover {
 					color: #fff;
-				}
+				} */
 
-	#logo {
+	/* #logo {
 		position: relative;
 		margin: 1.75em 1.5em 1.5em 1.5em;
 		min-height: 48px;
@@ -2108,15 +2108,15 @@ input, select, textarea {
 			position: absolute;
 			left: 0;
 			top: 0;
-		}
+		} */
 
-	#nav ul {
+	/* #nav ul {
 		list-style: none;
 		padding-left: 0;
 		margin-bottom: 0;
-	}
+	} */
 
-		#nav ul li {
+		/* #nav ul li {
 			padding-left: 0;
 		}
 
@@ -2146,9 +2146,9 @@ input, select, textarea {
 						text-align: center;
 						width: 1.25em;
 						line-height: 1.75em;
-					}
+					} */
 
-				#nav ul li a.active {
+				/* #nav ul li a.active {
 					background: rgba(0, 0, 0, 0.15);
 					box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
 					color: #fff;
@@ -2156,11 +2156,11 @@ input, select, textarea {
 
 					#nav ul li a.active span:before {
 						color: #e27689;
-					}
+					} */
 
 /* Footer */
 
-	#footer {
+	/* #footer {
 		margin-left: 375px;
 		text-align: center;
 		background-color: #dce3e2;
@@ -2186,53 +2186,53 @@ input, select, textarea {
 					border-left: 0;
 					padding-left: 0;
 					margin-left: 0;
-				}
+				} */
 
 /* Main */
 
-	#main {
+	/* #main {
 		margin-left: 375px;
-	}
+	} */
 
-		#main > section {
+		/* #main > section {
 			margin: 0;
 			overflow: hidden;
 			padding: 4em 0;
 			box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 			text-align: center;
 			background-image: url("images/overlay.png");
-		}
+		} */
 
-			#main > section.dark {
+			/* #main > section.dark {
 				color: #ddd;
 				color: rgba(255, 255, 255, 0.75);
-			}
+			} */
 
-				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
+				/* #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
 					color: inherit;
-				}
+				} */
 
-				#main > section.dark strong {
+				/* #main > section.dark strong {
 					color: #fff;
 					border-color: inherit;
-				}
+				} */
 
-				#main > section.dark a {
+				/* #main > section.dark a {
 					color: #fff;
 					border-color: inherit;
-				}
+				} */
 
-					#main > section.dark a:hover {
+					/* #main > section.dark a:hover {
 						border-bottom-color: rgba(255, 255, 255, 0);
-					}
+					} */
 
-			#main > section.cover {
+			/* #main > section.cover {
 				padding: 10em 0;
 				background-size: cover;
 				background-position: center center;
-			}
+			} */
 
-			#main > section.one {
+			/* #main > section.one {
 				background-color: #81918E;
 				background-image: url("../../images/banner.jpg");
 			}
@@ -2247,87 +2247,87 @@ input, select, textarea {
 
 			#main > section.four {
 				background-color: #e8edec;
-			}
+			} */
 
 /* Wide */
 
-	@media screen and (min-width: 961px) and (max-width: 1880px) {
+	/* @media screen and (min-width: 961px) and (max-width: 1880px) {
 
 		/* Basic */
 
-			body, input, textarea, select {
+			/* body, input, textarea, select {
 				font-size: 17pt;
-			}
+			} */
 
 		/* Header */
 
-			#header {
+			/* #header {
 				width: 300px;
-			}
+			} */
 
 		/* Footer */
 
-			#footer {
+			/* #footer {
 				margin-left: 300px;
-			}
+			} */
 
 		/* Main */
 
-			#main {
+			/* #main {
 				margin-left: 300px;
 			}
 
-	}
+	} */
 
 /* Normal */
 
-	@media screen and (min-width: 961px) and (max-width: 1620px) {
+	/* @media screen and (min-width: 961px) and (max-width: 1620px) { */
 
 		/* Main */
 
-			#main > section {
+			/* #main > section {
 				padding: 3em 0;
 			}
 
 			#main section.cover {
 				padding: 5em 0;
-			}
+			} */
 
-	}
+	/* } */
 
 /* Narrow */
 
-	@media screen and (min-width: 961px) and (max-width: 1320px) {
+	/* @media screen and (min-width: 961px) and (max-width: 1320px) { */
 
 		/* Basic */
 
-			body, input, textarea, select {
+			/* body, input, textarea, select {
 				font-size: 16pt;
-			}
+			} */
 
-			.container {
+			/* .container {
 				padding: 0 2em 0 2em;
-			}
+			} */
 
 		/* Icons */
 
-			ul.icons li a {
+			/* ul.icons li a {
 				width: 1.75em;
-			}
+			} */
 
 		/* Item */
 
-			.item {
+			/* .item {
 				margin-bottom: 20px;
-			}
+			} */
 
 		/* Header */
 
-			#header {
+			/* #header {
 				width: 20%;
-			}
+			} */
 
-			#logo .image {
+			/* #logo .image {
 				position: relative;
 				margin: 0 0 0.5em 0;
 			}
@@ -2346,32 +2346,32 @@ input, select, textarea {
 						left: 100%;
 						margin-left: -1.25em;
 						line-height: 2.25em;
-					}
+					} */
 
 		/* Footer */
 
-			#footer {
+			/* #footer {
 				margin-left: 20%;
-			}
+			} */
 
 		/* Main */
 
-			#main {
+			/* #main {
 				margin-left: 20%;
 			}
 
-	}
+	} */ 
 
 /* Narrower */
 
-	#headerToggle {
+	/* #headerToggle {
 		display: none;
-	}
+	} */
 
-	@media screen and (max-width: 960px) {
+	/* @media screen and (max-width: 960px) {
 
 		/* Basic */
-
+/* 
 			html, body {
 				overflow-x: hidden;
 			}
@@ -2390,19 +2390,19 @@ input, select, textarea {
 
 		/* Item */
 
-			.item {
+			/* .item {
 				margin-bottom: 15px;
-			}
+			} */
 
 		/* Icons */
 
-			ul.icons a {
+			/* ul.icons a {
 				width: 1.75em;
 				font-size: 1.25em;
-			}
+			} */
 
 		/* Header */
-
+/* 
 			#header {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
@@ -2520,16 +2520,16 @@ input, select, textarea {
 				-webkit-transform: translateX(0);
 				-ms-transform: translateX(0);
 				transform: translateX(0);
-			}
+			} */
 
 		/* Footer */
 
-			#footer {
+			/* #footer {
 				margin-left: 0;
-			}
+			} */
 
 		/* Main */
-
+/* 
 			#main {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
@@ -2551,14 +2551,14 @@ input, select, textarea {
 					padding: 4em 0;
 				}
 
-	}
+	} */
 
 /* Mobile */
 
-	@media screen and (max-width: 736px) {
+	/* @media screen and (max-width: 736px) { */
 
 		/* Basic */
-
+/* 
 			body, input, textarea, select {
 				font-size: 14pt;
 			}
@@ -2571,18 +2571,18 @@ input, select, textarea {
 
 			.container {
 				padding: 0 15px 0 15px;
-			}
+			} */
 
 		/* List */
 
-			ul.icons a {
+			/* ul.icons a {
 				width: 2em;
 				font-size: 1.25em;
-			}
+			} */
 
 		/* Main */
 
-			#main > section {
+			/* #main > section {
 				padding: 2em 0;
 			}
 
@@ -2592,10 +2592,10 @@ input, select, textarea {
 
 				#main section.cover header {
 					padding: 0 1em;
-				}
+				} */
 
 		/* Footer */
-
+/* 
 			#footer .copyright li {
 				display: block;
 				line-height: 1.25em;
@@ -2606,6 +2606,6 @@ input, select, textarea {
 
 				#footer .copyright li:first-child {
 					margin-top: 0;
-				}
+				} */
 
-	}
+	/* }   */
